@@ -38,7 +38,7 @@ export class AppComponent {
    * @returns {void}
    */
   onChangePhrase(event: Event): void {
-
+    this.phrase = (event.target as HTMLInputElement).value;
   }
 
 

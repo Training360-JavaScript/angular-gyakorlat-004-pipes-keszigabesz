@@ -14,7 +14,7 @@ export class UserListComponent implements OnInit {
    * @var phraseString {string} - Input tulajdonság
    */
 
-  @Input() phraseString!: string;
+  @Input() phraseString!: string='';
   @Input() users: User[] = [];
   @Output() delUser: EventEmitter<User> = new EventEmitter();
   currentUser: User = new User();

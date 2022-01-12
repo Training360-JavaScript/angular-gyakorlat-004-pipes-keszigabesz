@@ -17,12 +17,12 @@ export class AppComponent {
    * Hozd létre az alábbi változót.
    * @var phrase {string} - a keresőkifejezés
    */
-
+  phrase: string = '';
 
 
   constructor(
     private userService: UserService,
-  ) {}
+  ) { }
 
   onDeleteUser(user: User): void {
     this.userService.removeUser(user);
@@ -37,7 +37,9 @@ export class AppComponent {
    * @param event {Event} - az esemény
    * @returns {void}
    */
+  onChangePhrase(event: Event): void {
 
+  }
 
 
 }

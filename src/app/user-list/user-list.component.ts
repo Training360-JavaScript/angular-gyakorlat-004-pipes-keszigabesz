@@ -21,7 +21,7 @@ export class UserListComponent implements OnInit {
 
   /**
    * FELADAT!
-   * Hozd létre az alábbi változót.
+   * Hozd létre az alábbi váltoót.
    * @var columnKey {string} - a rendezés oszlopának kulcsa
    */
   columnKey: string = '';
